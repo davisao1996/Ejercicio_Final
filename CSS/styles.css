@@ -1,21 +1,40 @@
-body{
+body {
   font-family: "Dancing Script", cursive;
   background-color: #02010a;
 }
-.contenido{
-  align-content: center;
+.contenido {
+  display: grid;
 }
 
 
-.cabecera{
+.cabecera {
   background-color: #5b7989;
   text-shadow: 2px 2px 2px #02010a;
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 10px;
+  display: inline-grid;
 }
-a{
-  text-align: right;
-  color: inherit;
+.Menu a{
+  Color: white;
+  display: inline-grid;
+}
+footer {
+  background-color:  #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Derechos {
+  display: inline-grid;
+}
+.Contacto {
+  display: inline-grid;
+
+}
+.Terminos {
+  display: inline-grid;
+}
+.Redes  {
+  display: inline-grid;
 }
