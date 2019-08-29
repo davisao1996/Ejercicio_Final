@@ -1,7 +1,7 @@
 body {
   font-family: "Dancing Script", cursive;
   background-color: #02010a;
-  margin: auto;
+  margin: 10px;
 }
 
 #titulo {
@@ -17,11 +17,12 @@ header {
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
 }
 .Menu a{
   Color: white;
-  text-align: center;
 }
+
 footer {
   background-color:  #C6d5c5;
   border-bottom-left-radius: 10px;
