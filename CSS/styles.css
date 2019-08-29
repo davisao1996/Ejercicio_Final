@@ -4,7 +4,7 @@ body {
   margin: auto;
 }
 
-#cabecera {
+#titulo {
   flex-grow: 2;
 
 }
@@ -16,26 +16,16 @@ header {
   border-top-right-radius: 10px;
   padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 .Menu a{
   Color: white;
+  text-align: center;
 }
 footer {
   background-color:  #C6d5c5;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-.Derechos {
-  display: inline-grid;
-}
-.Contacto {
-  display: inline-grid;
-
-}
-.Terminos {
-  display: inline-grid;
-}
-.Redes  {
-  display: inline-grid;
+  display: flex;
+  flex-wrap: wrap;
 }
