@@ -3,7 +3,6 @@ body {
   background-color: #02010a;
   margin: 10px;
 }
-
 .cabecera {
   flex-grow: 2;
 }
@@ -21,40 +20,14 @@ header {
 .Menu a{
   Color: white;
 }
-.Redes img {
-  align: bottom;
-}
-#Inicio {
+
+#Retratos {
   text-decoration: none;
 }
-
-#Imagen_central {
-  background-color:  #82c3a6;
-  padding: 10px;
+img {
+  align-content: center;
 }
 
-#Imagen_central img{
-  display: block;
-  margin: auto;
-  box-shadow: 2px 2px #02010a;
-}
-
-.Imagenes_secundarias {
-  background-color: #d5c75f;
-  padding: 10px;
-  display: flex;
-
-}
-.Imagenes_secundarias img{
-
-  box-shadow: 2px 2px #02010a;
-}
-.Imagenes_secundarias article {
-  width: 50%;
-  margin: auto;
-  display: flex;
-  padding: auto;
-}
 footer {
   background-color:  #C6d5c5;
   border-bottom-left-radius: 10px;
