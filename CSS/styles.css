@@ -5,6 +5,7 @@ body {
 }
 .Contenido  {
   max-width: 900px;
+  margin: auto;
 }
 
 .cabecera {
@@ -54,7 +55,6 @@ header {
 }
 
 .Imagenes_secundarias img{
-
   box-shadow: 2px 2px #02010a;
 }
 .Imagenes_secundarias article {
@@ -66,10 +66,9 @@ footer {
   border-bottom-right-radius: 10px;
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
   padding: 10px;
 }
 article {
-  align-content: flex-end;
-  margin: auto;
+margin-left: auto;
+margin-right: auto;
 }

@@ -5,6 +5,7 @@ body {
 }
 .content  {
   max-width: 900px;
+  margin: auto;
 }
 .cabecera {
   flex-grow: 2;
@@ -34,6 +35,7 @@ img {
 .Contenido  {
   background-color: #d5c75f;
   padding: 10px;
+  align-content: center;
 }
 section {
   display: inline-flex;
@@ -60,5 +62,6 @@ footer  h2{
     text-align: top;
 }
 article {
-  margin: auto;
+margin-left: auto;
+margin-right: auto;
 }
