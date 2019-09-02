@@ -35,11 +35,12 @@ img {
 .Contenido  {
   background-color: #d5c75f;
   padding: 10px;
-  align-content: center;
+  margin: auto;
 }
 section {
   display: inline-flex;
   flex-wrap: wrap;
+  margin: auto;
 }
 .Contenido img {
   display: block;
