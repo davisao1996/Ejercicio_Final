@@ -3,6 +3,9 @@ body {
   background-color: #02010a;
   margin: 10px;
 }
+.content  {
+  max-width: 900px;
+}
 .cabecera {
   flex-grow: 2;
 }
@@ -35,4 +38,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+}
+article {
+  margin: auto;
 }

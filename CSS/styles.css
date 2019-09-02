@@ -3,6 +3,9 @@ body {
   background-color: #02010a;
   margin: 10px;
 }
+.Contenido  {
+  max-width: 900px;
+}
 
 .cabecera {
   flex-grow: 2;
@@ -45,8 +48,11 @@ header {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-
 }
+.Imagenes_secundarias a {
+  color: black;
+}
+
 .Imagenes_secundarias img{
 
   box-shadow: 2px 2px #02010a;
@@ -61,4 +67,9 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  padding: 10px;
+}
+article {
+  align-content: flex-end;
+  margin: auto;
 }
