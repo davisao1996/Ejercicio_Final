@@ -38,7 +38,7 @@ header {
 }
 
 #Imagen_central img{
-  display: block;
+  display: flex;
   margin: auto;
   box-shadow: 2px 2px #02010a;
 }
@@ -86,9 +86,16 @@ article {
 margin-left: auto;
 margin-right: auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   header  {
     flex-direction: column;
+  }
+  .Imagenes_secundarias {
+    flex-direction: column;
+  }
+  .Imagenes_secundarias img{
+    width: 75%;
+    height:auto;
   }
   footer  {
     flex-direction: column;

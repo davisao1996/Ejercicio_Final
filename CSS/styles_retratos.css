@@ -60,9 +60,16 @@ article {
 margin-left: auto;
 margin-right: auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   header  {
     flex-direction: column;
+  }
+  section {
+    flex-direction: column;
+  }
+  section img {
+    width: 75%;
+    height: auto;
   }
   footer  {
     flex-direction: column;
