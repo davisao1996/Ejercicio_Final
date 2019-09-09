@@ -60,6 +60,20 @@ header {
 .Imagenes_secundarias article {
   margin: auto;
 }
+#Landscape  {
+  transition: transform 2s;
+}
+#Landscape:hover {
+  transition: transform 2s;
+  transform: rotate(10deg);
+}
+#Portrait {
+  transition: transform 2s;
+}
+#Portrait:hover {
+  transition: transform 2s;
+  transform: translate(20px, -5px);
+}
 footer {
   background-color:  #C6d5c5;
   border-bottom-left-radius: 10px;
@@ -71,4 +85,13 @@ footer {
 article {
 margin-left: auto;
 margin-right: auto;
+}
+@media (max-width: 900px) {
+  header  {
+    flex-direction: column;
+  }
+  footer  {
+    flex-direction: column;
+    text-align: center;
+  }
 }
