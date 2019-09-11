@@ -10,6 +10,29 @@ body {
 .cabecera {
   flex-grow: 2;
 }
+header {
+  background-color: #5b7989;
+  text-shadow: 2px 2px 2px #02010a;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  animation: Slidein 2s;
+}
+@-webkit-keyframes Slidein {
+  0%{margin-top: 150%}
+  60%{margin-top: -5%}
+  100%{margin-top: 0%}
+}
+.Menu a{
+  Color: white;
+}
+#Retratos {
+  text-decoration: none;
+}
 .Contenido  {
   background-color: #d5c75f;
   padding: 10px;
@@ -29,25 +52,16 @@ section {
 .Contenido article{
   margin: 10px auto;
 }
-header {
-  background-color: #5b7989;
-  text-shadow: 2px 2px 2px #02010a;
-  color: white;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
+
+
+.imagen1  {
+  filter: blur(10px);
 }
-.Menu a{
-  Color: white;
+.imagen2, .imagen4, .imagen6 {
+  filter: grayscale(100%);
 }
-#Retratos {
-  text-decoration: none;
-}
-img {
-  align-content: center;
+.imagen3 {
+  filter: sepia(90%);
 }
 footer {
   background-color:  #C6d5c5;

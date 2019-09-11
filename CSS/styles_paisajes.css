@@ -20,6 +20,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  animation: Slidein 2s;
+}
+@-webkit-keyframes Slidein {
+  0%{margin-top: 150%}
+  60%{margin-top: -5%}
+  100%{margin-top: 0%}
 }
 .Menu a{
   Color: white;
@@ -27,9 +33,6 @@ header {
 
 #Paisajes {
   text-decoration: none;
-}
-img {
-  align-content: center;
 }
 
 .Contenido  {
@@ -50,7 +53,15 @@ section {
 .Contenido article{
   margin: 10px auto;
 }
-
+.imagen1  {
+  filter: blur(10px);
+}
+.imagen2, .imagen4, .imagen6 {
+  filter: grayscale(100%);
+}
+.imagen3 {
+  filter: sepia(90%);
+}
 footer {
   background-color:  #C6d5c5;
   border-bottom-left-radius: 10px;
